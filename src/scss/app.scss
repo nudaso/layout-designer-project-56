@@ -1,0 +1,16 @@
+@import "config";
+
+body {
+  color: #cacaca;
+  font: 18px/1.5 Roboto, snas-serif;
+
+  background: #08020d;
+}
+
+@include create-header(1, 60);
+@include create-header(2, 38);
+
+@media (max-width: 480px) {
+  @include create-header(1, 30);
+  @include create-header(2, 18);
+}

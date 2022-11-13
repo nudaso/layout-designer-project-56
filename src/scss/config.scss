@@ -1,0 +1,14 @@
+@mixin f-size-height-one-and-half($selector,$f-size) {
+  #{$selector} {
+    font-size: #{$f-size}px;
+    line-height: 1.5em;
+    @content;
+  }
+}
+
+@mixin create-header($level, $f-size) {
+  @include f-size-height-one-and-half("h#{$level}", $f-size) {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

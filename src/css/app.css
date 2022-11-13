@@ -1,0 +1,36 @@
+body {
+  color: #cacaca;
+  font: 18px/1.5 Roboto, snas-serif;
+  background: #08020d;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
