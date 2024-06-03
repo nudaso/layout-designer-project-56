@@ -1,0 +1,16 @@
+{
+  "name": "layout-2",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/nudaso/layout-designer-project-56/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/nudaso/layout-designer-project-56/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
