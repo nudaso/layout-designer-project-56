@@ -1,15 +1,15 @@
-html {
-  font-family: Roboto, sans-serif;
-  line-height: 1.5;
-  color: #cacaca;
-  background-color: #08020d;
-}
-
 @mixin header($font-size) {
   font-size: #{$font-size}px;
   line-height: 1.5;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  color: #cacaca;
+  background-color: #08020d;
 }
 
 h1 {
@@ -19,7 +19,6 @@ h1 {
 h2 {
   @include header(38);
 }
-
 
 @media (max-width: 575px) {
   h1 {
