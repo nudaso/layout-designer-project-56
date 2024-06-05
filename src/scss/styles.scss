@@ -20,6 +20,10 @@ h2 {
   @include header(38);
 }
 
+.container {
+  max-width: 1200px;
+}
+
 @media (max-width: 575px) {
   h1 {
     @include header(30);
@@ -27,5 +31,9 @@ h2 {
   
   h2 {
     @include header(18);
+  }
+
+  .container {
+    margin: 0 20px;
   }
 }

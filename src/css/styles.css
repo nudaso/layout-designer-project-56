@@ -19,6 +19,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 @media (max-width: 575px) {
   h1 {
     font-size: 30px;
@@ -31,6 +35,9 @@ h2 {
     line-height: 1.5;
     font-weight: bold;
     text-transform: uppercase;
+  }
+  .container {
+    margin: 0 20px;
   }
 }
 
